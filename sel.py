@@ -4,9 +4,9 @@ import time
 
 try:
     # Ссылка на первую страницу (рабочую)
-    link = "http://suninjuly.github.io/registration1.html"
+    #link = "http://suninjuly.github.io/registration1.html"
     # Ссылка на вторую страницу (нерабочую)
-    #link = "http://suninjuly.github.io/registration2.html"
+    link = "http://suninjuly.github.io/registration2.html"
 
     browser = webdriver.Chrome()
     browser.get(link)
